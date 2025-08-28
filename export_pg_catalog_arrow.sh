@@ -8,7 +8,7 @@ CONTAINER_NAME="postgres-arrow-export"
 DB_NAME="postgres"
 DB_USER="postgres"
 DB_PASSWORD="postgres"
-EXPORT_DIR="./pg_catalog_arrow_exports"
+EXPORT_DIR="./datafusion-postgres/pg_catalog_arrow_exports"
 POSTGRES_PORT="5432"
 
 # Export mode: "static" or "all"
